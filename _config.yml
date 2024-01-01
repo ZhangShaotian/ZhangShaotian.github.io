@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Winchester Zhang / Site Title"
+title                    : "Winchester Zhang"
 title_separator          : "-"
 name                     : &name "Winchester Zhang"
 description              : &description "Winchi's personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
