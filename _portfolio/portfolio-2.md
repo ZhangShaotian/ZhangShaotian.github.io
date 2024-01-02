@@ -4,6 +4,7 @@ excerpt: "Explore the Intricacies of Advanced CPU Design! Discover how we master
 collection: portfolio
 ---
 
+
 **Keywords**: TSMC 28nm, Low-Power Design, Clock Optimization, Power Compliance, Design Integrity
 
 I'm excited to share with you the ambitious project I'm currently involved in: The design and optimization of TSMC's 28nm low-power Quad-Core A7 CPU. This project showcases our planned methodologies and anticipated outcomes in several key areas:
