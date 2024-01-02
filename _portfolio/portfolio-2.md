@@ -1,10 +1,8 @@
 ---
-title: "Physical Implementation of TSMC 28nm Low-Power Quad-Core A7 Top Hierarchical Flow"
-excerpt: "Explore the Intricacies of Advanced CPU Design! Discover how we master the TSMC 28nm Low-Power Quad-Core A7 CPU design, optimizing for power, performance, and integrity. Click for an insider's look into the world of high-tech processor development! (Ongoing)"
+title: "TSMC's 28nm Low-Power Quad-Core A7 CPU Physical Design (Ongoing)"
+excerpt: "Explore the Intricacies of Advanced CPU Design! Discover how we master the TSMC 28nm Low-Power Quad-Core A7 CPU design, optimizing for power, performance, and integrity. Click for an insider's look into the world of high-tech processor development!<br/><img src='/images/portfolio-2.png'>"
 collection: portfolio
 ---
-
-# TSMC's 28nm Low-Power Quad-Core A7 CPU Design and Optimization Project
 
 **Keywords**: TSMC 28nm, Low-Power Design, Clock Optimization, Power Compliance, Design Integrity
 
