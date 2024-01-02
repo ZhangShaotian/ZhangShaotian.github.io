@@ -23,6 +23,6 @@ I am also interested in CPU architecture, including everything from front-end Re
 - Performance Engineering
 
 ## Education
-- M.Eng in Electrical & Computer Engineering, Cornell University, Aug.2022 - Dec.2023
-- Exchange Student in EE&Physics, Linköping University, Jan.2021 - Jan.2022
-- B.Eng in Electrical Engineering, South China University of Technology, Aug. 2018 - Jun.2022
+- M.Eng in Electrical & Computer Engineering, Cornell University, Aug. 2022 - Dec. 2023
+- Exchange Student in EE&Physics, Linköping University, Jan. 2021 - Jan. 2022
+- B.Eng in Electrical Engineering, South China University of Technology, Aug. 2018 - Jun. 2022
