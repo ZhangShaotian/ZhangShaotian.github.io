@@ -3,7 +3,7 @@ title: "FPGA Acceleration Techniques in Matrix Multiplication"
 excerpt: "🚀 Unveil the power of FPGA in High-Performance Computing! Explore our groundbreaking project that accelerated matrix computations by 11.82x, revolutionizing applications in FEA, CFD, and Seismic Analysis. Click to see how we pushed the boundaries of speed and efficiency!<br/><img src='/images/portfolio-3.png'>"
 collection: portfolio
 ---
-[![Watch the Video](http://img.youtube.com/vi/sald8OCNNhQ/0.jpg)](https://www.youtube.com/watch?v=sald8OCNNhQ "Revolutionizing High-Performance Computing with FPGA")
+[![Watch the Video](http://img.youtube.com/vi/sald8OCNNhQ/0.jpg)](https://www.youtube.com/watch?v=sald8OCNNhQ "Revolutionizing High-Performance Computing with FPGA") 
 
 ### Project Introduction
 Led an ambitious project focusing on the development of **FPGA-based matrix multiplication methods**. This project was specifically aimed at applications in critical computational fields, including:
