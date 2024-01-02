@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Draft"
 excerpt: "Explore the forefront of computational physics in 'Radio Ray Tracing Optimization via AutoDiff'! Dive into how
 Automatic Differentiation revolutionizes the accuracy and efficiency of modeling radio wave propagation in the
@@ -21,4 +21,4 @@ practically illustrate the application of this concept. As for future endeavors,
 discrete models for further optimization and problem-solving. Additionally, efforts will be dedicated to harnessing GPU
 accelerations for handling larger models, paving the way for even more efficient computational processes.
 
-<a href="/files/Raytracing.pdf" target="_blank">Click here to view the PDF</a>
+<a href="/files/Raytracing.pdf" target="_blank">Click here to view the PDF</a> -->
