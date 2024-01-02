@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Winchester(Shaotian) Zhang. I chose my preferred name "Winchester" inspired by two brave brothers in "Supernatural," a long-running American TV series. "Saving people, hunting things, the family business."
+Hello! I'm Winchester(Shaotian) Zhang. I chose my preferred name "Winchester" inspired by two brave brothers in "[Supernatural](https://www.netflix.com/title/70143825)," a long-running American TV series. "Saving people, hunting things, the family business."
 
 As an aspiring researcher in Electrical and Computer Engineering (ECE), I am deeply engaged in the dynamic field of EECS, with a strong educational foundation and practical experience in CPU Architecture and Hardware Acceleration.
 
@@ -20,7 +20,7 @@ I am also interested in CPU architecture, including everything from front-end Re
 - CPU architecture
 - FPGA Acceleration
 - Scientific Computing Methods
-- Performance Engineering
+- Chip Physical Design
 
 ## Education
 <table style="width: 100%; border-collapse: collapse; font-family: inherit;" border="0">
