@@ -28,7 +28,5 @@ My role extended beyond technicalities, involving effective team coordination, m
 **Skill Enhancement**:  
 This project significantly enhanced my skill set, deepening my understanding of High-Level Synthesis for FPGA, expertise in FPGA design paradigms, parallel computing architectures, and high-throughput hardware optimization techniques.
 
-**Conclusion and Impact**:  
-The project not only fostered my technical and leadership skills but also made a substantial contribution to the domain of high-performance computing, especially in applications that require intensive matrix computations like FEA, CFD, and Seismic Analysis.
 
 
