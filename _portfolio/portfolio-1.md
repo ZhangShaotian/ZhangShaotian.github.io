@@ -4,7 +4,7 @@ excerpt: "Welcome to the RISC-V IPCB Pro – a groundbreaking advancement in mic
 collection: portfolio
 ---
 
-<br/><img src='/images/processor_datapath.png'> <br/><img src='/images/cache.png'> 
+<br/><img src='/images/processor_datapath.png'> <br/><img src='/images/cache.jpg'> 
  
 **Keywords**: RISC-V Architecture, Advanced Pipelining, Cache Optimization, Predictive Branching, High-Performance Computing
 
