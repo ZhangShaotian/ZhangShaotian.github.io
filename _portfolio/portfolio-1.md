@@ -3,8 +3,6 @@ title: "RISC-V Integrated Processor Design with Pipelining, Cache, and Branch Pr
 excerpt: "Welcome to the RISC-V IPCB Pro – a groundbreaking advancement in microprocessor technology. Merging advanced pipelining, optimized cache, and predictive branching within the robust RISC-V architecture, this processor is tailored for peak efficiency and speed. Ideal for tech enthusiasts and professionals alike, the RISC-V IPCB Pro marks a new era in high-performance computing. Discover how it's redefining processor design!<br/><img src='/images/processor.png'>"
 collection: portfolio
 ---
-
-<br/><img src='/images/processor_datapath.png'> <br/><img src='/images/cache.jpg'> 
  
 **Keywords**: RISC-V Architecture, Advanced Pipelining, Cache Optimization, Predictive Branching, High-Performance Computing
 
@@ -25,7 +23,7 @@ This comprehensive project represents the culmination of three distinct yet inte
 - **Stalling**: In the baseline design, the processor stalls in the presence of data hazards, ensuring data integrity at the cost of reduced efficiency.
 - **Bypassing**: The alternative design uses bypassing (forwarding) to resolve data hazards, significantly improving performance by reducing stalls.
 - **Modularity and Hierarchical Design**: The processor's architecture demonstrates a modular approach with encapsulated components, ensuring ease of understanding and modification.
-
+<br/><img src='/images/processor_datapath.png'> 
 ---
 
 ## Cache System
@@ -39,7 +37,7 @@ This comprehensive project represents the culmination of three distinct yet inte
 - **Direct-Mapped and Set-Associative**: The baseline cache provides simplicity and speed, while the alternative cache offers improved performance in diverse access patterns.
 - **Efficient Memory Access**: Both cache designs aim to reduce the average memory access time, enhancing the overall speed of the processor.
 - **LRU Policy**: The alternative design's LRU policy ensures efficient utilization of cache space, prioritizing the retention of frequently accessed data.
-
+<br/><img src='/images/cache.jpg'> 
 ---
 
 ## Branch Prediction
