@@ -5,51 +5,30 @@ collection: portfolio
 ---
 [![Watch the Video](http://img.youtube.com/vi/sald8OCNNhQ/0.jpg)](https://www.youtube.com/watch?v=sald8OCNNhQ "Revolutionizing High-Performance Computing with FPGA") 
 
-### Project Introduction
-Led an ambitious project focusing on the development of **FPGA-based matrix multiplication methods**. This project was specifically aimed at applications in critical computational fields, including:
+**Project Overview**:  
+I spearheaded an ambitious project focused on developing FPGA-based matrix multiplication methods. This initiative was crucial for computational fields like Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD), and Seismic Analysis, with the primary goal of significantly enhancing computational efficiency through advanced FPGA architectures.
 
-- **Finite Element Analysis (FEA)**
-- **Computational Fluid Dynamics (CFD)**
-- **Seismic Analysis**
+**Design and Implementation**:  
+The project featured three distinct FPGA designs, each crafted using High-Level Synthesis (HLS) with unique characteristics and performance profiles:
 
-The goal was to significantly improve computational efficiency using advanced FPGA architectures.
+1. **Baseline Design**:  
+   - This served as the fundamental performance benchmark, focusing on basic matrix multiplication without advanced optimization.
 
-### Design and Implementation
-#### FPGA Designs
-Implemented three distinct FPGA designs using High-Level Synthesis (HLS), each with unique characteristics and performance profiles:
+2. **Tiling Design**:  
+   - It introduced memory-efficient techniques by dividing matrices into smaller blocks or 'tiles', optimizing cache usage and minimizing memory access delays.
 
-1. **Baseline Design**:
-   - Established a fundamental performance benchmark.
-   - Focused on basic matrix multiplication without advanced optimization techniques.
+3. **Systolic Array Design**:  
+   - A resource-intensive design that implemented a systolic array architecture for maximized parallel data processing, achieving a remarkable 11.82x speedup over the baseline.
 
-2. **Tiling Design**:
-   - Introduced memory-efficient techniques.
-   - Reduced data movement by dividing matrices into smaller blocks or 'tiles'.
-   - Aimed to optimize cache usage and minimize memory access delays.
+Advanced HLS directives were employed in optimization techniques to fine-tune data locality and parallelism. The project emphasized exploiting the inherent parallel nature of matrix multiplication to boost computational throughput, with a keen focus on balancing speed and FPGA resource utilization.
 
-3. **Systolic Array Design**:
-   - Highly advanced and resource-intensive design.
-   - Implemented a systolic array architecture for maximized parallel data processing.
-   - Achieved a remarkable **11.82x speedup** over the baseline, demonstrating the power of well-optimized hardware acceleration.
+**Project Management and Leadership**:  
+My role extended beyond technicalities, involving effective team coordination, milestone tracking, and result-oriented leadership through key phases like design conceptualization, performance benchmarking, and technical report preparation.
 
-#### Optimization Techniques
-- Employed advanced **HLS directives** to fine-tune data locality and parallelism.
-- Exploited the inherent parallel nature of matrix multiplication, significantly boosting computational throughput.
-- Continuously iterated on designs to strike a balance between speed and FPGA resource utilization.
+**Skill Enhancement**:  
+This project significantly enhanced my skill set, deepening my understanding of High-Level Synthesis for FPGA, expertise in FPGA design paradigms, parallel computing architectures, and high-throughput hardware optimization techniques.
 
-### Project Management and Leadership
-- Led the project through key phases:
-  - **Design conceptualization and implementation**
-  - **Performance benchmarking and analysis**
-  - **Technical report preparation and presentation**
-- Demonstrated effective **team coordination**, **milestone tracking**, and **result-oriented leadership**.
+**Conclusion and Impact**:  
+The project not only fostered my technical and leadership skills but also made a substantial contribution to the domain of high-performance computing, especially in applications that require intensive matrix computations like FEA, CFD, and Seismic Analysis.
 
-### Skill Enhancement
-- Through this project, I have substantially enhanced my technical skill set, including:
-  - Deep understanding of **High-Level Synthesis (HLS) for FPGA**.
-  - Expertise in **FPGA design paradigms** and **parallel computing architectures**.
-  - Specialization in **high-throughput hardware optimization techniques**.
-
-### Conclusion and Impact
-This project not only advanced my technical and leadership skills but also contributed significantly to the domain of high-performance computing, particularly in applications requiring intensive matrix computations like FEA, CFD, and Seismic Analysis.
 
