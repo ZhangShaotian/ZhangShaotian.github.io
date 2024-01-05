@@ -7,6 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
+<nav>
+  <ul>
+    {% for post in site.portfolio %}
+    <li><a href="#project-{{ forloop.index }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
 
 {% for post in site.portfolio %}
 {% include archive-single.html %}
