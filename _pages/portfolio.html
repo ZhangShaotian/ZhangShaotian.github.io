@@ -11,8 +11,7 @@ author_profile: true
   <ul>
     {% for post in site.portfolio %}
     <li><a href="#portfolio-{{ forloop.index }}">{{ post.title }}</a></li>
-    <div id="portfolio-{{ forloop.index }}">
-    </div>
+    <div id="portfolio-{{ forloop.index }}">{{ post.title }}</div>
     {% endfor %}
   </ul>
 </nav>
