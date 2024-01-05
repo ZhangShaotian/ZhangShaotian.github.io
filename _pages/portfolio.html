@@ -1,3 +1,19 @@
+<!-- ---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+
+{% for post in site.portfolio %}
+{% include archive-single.html %}
+{% endfor %}
+
+-->
+
 ---
 layout: archive
 title: "Portfolio"
@@ -7,6 +23,13 @@ author_profile: true
 
 {% include base_path %}
 
+# Navigation
+- [TSMC's 28nm Low-Power Quad-Core A7 CPU Physical Design (Ongoing)](#TSMC's 28nm Low-Power Quad-Core A7 CPU Physical
+Design (Ongoing))
+- [RISC-V Integrated Processor Design with Pipelining, Cache, and Branch Prediction](#RISC-V Integrated Processor Design
+with Pipelining, Cache, and Branch Prediction)
+- [Radio Ray Tracing Optimization via AutoDiff](#Radio Ray Tracing Optimization via AutoDiff)
+- [FPGA Acceleration Techniques in Matrix Multiplication](#FPGA Acceleration Techniques in Matrix Multiplication)
 
 {% for post in site.portfolio %}
 {% include archive-single.html %}
