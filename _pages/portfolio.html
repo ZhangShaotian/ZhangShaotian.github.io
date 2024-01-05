@@ -28,9 +28,7 @@ author_profile: true
 </ul>
 
 {% for post in site.portfolio %}
-<div id="portfolio-{{ forloop.index0 }}" style="margin-top: 2em;">
-  <h2>{{ post.title }}</h2>
-  <p>{{ post.excerpt }}</p>
-  <!-- Add more details from the post here if needed -->
+<div id="portfolio-{{ forloop.index0 }}">
+  {% include archive-single.html %}
 </div>
 {% endfor %}
