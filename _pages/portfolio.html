@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "Portfolio"
 permalink: /portfolio/
@@ -10,5 +10,27 @@ author_profile: true
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
-{% endfor %}
+{% endfor %} -->
 
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<ul>
+  {% for post in site.portfolio %}
+  <li><a href="#portfolio-{{ forloop.index0 }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+{% for post in site.portfolio %}
+<div id="portfolio-{{ forloop.index0 }}" style="margin-top: 2em;">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.excerpt }}</p>
+  <!-- Add more details from the post here if needed -->
+</div>
+{% endfor %}
