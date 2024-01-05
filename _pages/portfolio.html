@@ -7,11 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
-<div id="portfolio-{{ forloop.index }}">
-</div>
-{% endfor %}
-
 <nav>
   <ul>
     {% for post in site.portfolio %}
@@ -21,5 +16,7 @@ author_profile: true
 </nav>
 
 {% for post in site.portfolio %}
-{% include archive-single.html %}
+<div id="portfolio-{{ forloop.index }}">
+  {% include archive-single.html %}
+</div>
 {% endfor %}
