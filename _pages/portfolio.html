@@ -11,15 +11,20 @@ author_profile: true
   <ul>
     {% for post in site.portfolio %}
     <li><a href="#portfolio-{{ forloop.index }}">{{ post.title }}</a></li>
+    <div id="portfolio-{{ forloop.index }}">
+    </div>
+    <div id="portfolio-{{ forloop.index }}">
+    </div>
     {% endfor %}
   </ul>
 </nav>
 
-{% for post in site.portfolio %}
+<!-- {% for post in site.portfolio %}
 <div id="portfolio-{{ forloop.index }}">
 </div>
 {% endfor %}
 
 {% for post in site.portfolio %}
-{% include archive-single.html %}
-{% endfor %}
+<div id="portfolio-{{ forloop.index }}">
+</div>
+{% endfor %} -->
