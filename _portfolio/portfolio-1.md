@@ -5,50 +5,40 @@ collection: portfolio
 ---
 
  
-**Keywords**: TSMC 28nm, Low-Power Design, Clock Optimization, Power Compliance, Design Integrity
+**Keywords**: Radar Sensor Integration, LIN Protocol, Automotive Safety, Cross-functional Collaboration
 
-I'm excited to share with you the ambitious project I'm currently involved in: The design and optimization of TSMC's 28nm low-power Quad-Core A7 CPU. This project showcases our planned methodologies and anticipated outcomes in several key areas:
+I'm thrilled to share with you a groundbreaking project I led at VIA Tech, where we pushed the boundaries of automotive safety through the integration of a cost-effective radar sensor into our advanced driver recorder system. Our goal was to enhance visibility in hard-to-see areas, such as car trunks, without relying on expensive Controller Area Network (CAN) systems.
+<a href="/files/ViaTechPresentation.pdf" target="_blank">Click here to view my work</a>
 
-## Hierarchical Design Mastery
-We are poised to specialize in the hierarchical design and implementation for TSMC's 28nm low-power Quad-Core A7 CPU. Our focus is on:
-- Low-power elements
-- Incorporating isolation and level shifter cells
-- Strong proficiency in UPF scripting
+## Leveraging the LIN Protocol
+We made a strategic decision to utilize the Local Interconnect Network (LIN) protocol for our radar sensor integration. This choice allowed us to:
+- Achieve cost-effectiveness without compromising on performance
+- Seamlessly interface with the driver recorder's RS232 interface
+- Demonstrate the versatility and potential of the LIN protocol in automotive applications
 
-This approach is fundamental to managing power effectively in advanced chip designs.
+## Cross-functional Collaboration
+One of the key aspects of this project was the close collaboration between various teams. I worked hand-in-hand with:
+- Layout design teams to create a custom circuit board
+- 3D printing experts to develop an outer shell for the transition box
+- Firmware engineers to ensure smooth communication between the radar sensor and the driver recorder
 
-## Floorplanning and Power Planning
-Our approach includes:
-- Executing precise CPU subsystem partitioning and pin assignments, guided by a meticulously crafted top floorplan DEF.
-- Comprehensive floorplanning for the Cortex-A7 core, A7 top, and A7 top wrapper.
-- Developing and implementing a robust, integrated CPU subsystem power plan.
+This cross-functional approach was crucial in delivering a solution that met all the technical requirements while remaining cost-effective.
 
-## Clock and Timing Optimization
-We are gearing up to:
-- Set and optimize clock latencies for both the Cortex-A7 core and A7 top, with a keen eye on internal clock trees.
-- Detailed analysis and optimization of the CPU subsystem clock tree, incorporating guide buffers and manual clock tree logic cell placement.
+## Designing the Transition Box
+To bridge the gap between the driver recorder's RS232 interface and the LIN-based radar sensor, we designed a custom transition box. This involved:
+- Drafting initial integration plans and selecting crucial components
+- Designing a custom circuit board to house the necessary electronics
+- Developing an outer shell using 3D printing technology to provide a robust enclosure  
 
-## Power Integrity and Crosstalk Management
-Our strategy includes:
-- Developing methods to reduce leakage and dynamic power.
-- Implementing clock trunk shielding to reduce crosstalk effects, ensuring the integrity and efficiency of the CPU design.
+The transition box played a vital role in ensuring seamless communication between the two systems, enabling the radar sensor to provide enhanced visibility data to the driver recorder.
 
-## DRC, LVS, and Signoff Procedures
-We plan to:
-- Master Latten RC extraction and Flatten DRC checking.
-- Establish a PrimeTime (PT) timing environment in line with Foundry Timing Signoff standards.
-- Adjust timing derate values during the PR phase.
-- Conduct comprehensive hierarchical and flatten LVS checks to ensure design accuracy and reliability.
+## Enhancing Automotive Safety
+The successful integration of the radar sensor into the driver recorder system has significant implications for automotive safety. By improving visibility in hard-to-see areas, we:
 
-## Timing and Manufacturing Optimization
-Our roadmap includes:
-- Conducting timing consistency analyses between PT and PR.
-- Implementing Dummy Insertion Flow across the CPU subsystem.
-- Managing RC extraction with dummy structures.
-- Strategic selection and placement of Level Shifter Cells at the A7 top wrapper layer.
+- Reduce the risk of accidents caused by blind spots
+- Provide drivers with a more comprehensive understanding of their surroundings
+- Demonstrate VIA Tech's commitment to innovation and safety in the automotive industry
 
-## IR Drop Analysis
-A critical aspect of our project is:
-- The preparation and analysis of CPU subsystem IR Drop data to ensure compliance with power distribution specifications.
+This project not only showcases my technical expertise in radar sensor integration and the LIN protocol but also highlights my ability to lead cross-functional teams and deliver cost-effective solutions that have a real impact on automotive safety.
 
-This project represents the cutting edge in CPU design and optimization, and I'm thrilled to be at the forefront of this innovative endeavor. Stay tuned for updates as we progress in turning these plans into reality!
+
