@@ -1,6 +1,6 @@
 ---
-title: "TSMC's 28nm Low-Power Quad-Core A7 CPU Physical Design (Ongoing)"
-excerpt: "Explore the Intricacies of Advanced CPU Design! Discover how we master the TSMC 28nm Low-Power Quad-Core A7 CPU design, optimizing for power, performance, and integrity. Click for an insider's look into the world of high-tech processor development!<br/><img src='/images/portfolio-2.png'>"
+title: "LIN-RS232 Radar Transition Box"
+excerpt: "Enhancing vehicle safety through radar sensor integration, I led the development of a cost-effective LIN-based solution at VIA Tech. Collaborating with design teams, we created a custom transition box to seamlessly interface the driver recorder with the radar sensor, improving visibility in hard-to-see areas.<img src="/images/portfolio-2.png" width="500" height="300">
 collection: portfolio
 ---
 
