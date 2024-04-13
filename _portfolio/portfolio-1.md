@@ -1,6 +1,6 @@
 ---
 title: "LIN-RS232 Radar Transition Box"
-excerpt: "Enhancing vehicle safety through radar sensor integration, I led the development of a cost-effective LIN-based solution at VIA Tech. Collaborating with design teams, we created a custom transition box to seamlessly interface the driver recorder with the radar sensor, improving visibility in hard-to-see areas.<img src="/images/portfolio-2.png" width="500" height="300">
+excerpt: "Enhancing vehicle safety through radar sensor integration, I led the development of a cost-effective LIN-based solution at VIA Tech. Collaborating with design teams, we created a custom transition box to seamlessly interface the driver recorder with the radar sensor, improving visibility in hard-to-see areas.<br/><img src='/images/portfolio-2.png'>"
 collection: portfolio
 ---
 
