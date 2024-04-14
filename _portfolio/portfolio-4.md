@@ -1,32 +1,52 @@
 ---
-title: "FPGA Acceleration Techniques in Matrix Multiplication"
-excerpt: "🚀 Unveil the power of FPGA in High-Performance Computing! Explore our groundbreaking project that accelerated matrix computations by 11.82x, revolutionizing applications in FEA, CFD, and Seismic Analysis. Click to see how we pushed the boundaries of speed and efficiency!<br/><img src='/images/portfolio-3.png'>"
+title: "Raspberry Pi Light Trace System - Embedded OS System
+"
+excerpt: "Step into the world of our Light Tracker project, where we've attempted to recreate the fascinating behavior of sunflowers. Through a combination of camera input, servo motors, and user-friendly controls, our system aims to follow moving light sources. Join us as we explore the intersection of nature and technology.<br/><img src='/images/portfolio-3.png'>"
 collection: portfolio
 ---
-[![Watch the Video](http://img.youtube.com/vi/sald8OCNNhQ/0.jpg)](https://www.youtube.com/watch?v=sald8OCNNhQ "Revolutionizing High-Performance Computing with FPGA") 
 
 **Project Overview**:  
-I spearheaded an ambitious project focused on developing FPGA-based matrix multiplication methods. This initiative was crucial for computational fields like Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD), and Seismic Analysis, with the primary goal of significantly enhancing computational efficiency through advanced FPGA architectures.
+I led a groundbreaking project centered on developing a Light Tracker system that emulates the natural behavior of sunflowers. This innovative project aimed to seamlessly integrate computer vision, servo motors, and user-friendly controls to create a system capable of accurately tracking moving light sources. The Light Tracker holds immense potential for applications in solar energy optimization, smart agriculture, and interactive art installations.<br/><img src='/images/portfolio-4.png'>
+
+[Click here to watch the video!](https://www.bilibili.com/video/BV1qd4y1v7ze/)
 
 **Design and Implementation**:  
-The project featured three distinct FPGA designs, each crafted using High-Level Synthesis (HLS) with unique characteristics and performance profiles:
+The project encompassed two distinct approaches to light tracking:
 
-1. **Baseline Design**:  
-   - This served as the fundamental performance benchmark, focusing on basic matrix multiplication without advanced optimization.
+1. **Camera-based Tracking**:  
+   - Utilized OpenCV library to detect the brightest point in captured images.
+   - Employed servo motors to adjust the panel's orientation, keeping the light source centered.
 
-2. **Tiling Design**:  
-   - It introduced memory-efficient techniques by dividing matrices into smaller blocks or 'tiles', optimizing cache usage and minimizing memory access delays.
+2. **Photoresistor-based Tracking**:  
+   - Implemented four photoresistors to detect changes in light luminosity.
+   - Calculated the light source's position based on the relative luminosity values.
 
-3. **Systolic Array Design**:  
-   - A resource-intensive design that implemented a systolic array architecture for maximized parallel data processing, achieving a remarkable 11.82x speedup over the baseline.
+The system combined mechanical and electronic components with Python programming on a Raspberry Pi to create a sophisticated light-tracking solution. Advanced techniques such as Gaussian filtering, edge detection, and proportional control were employed to enhance tracking accuracy and responsiveness.
 
-Advanced HLS directives were employed in optimization techniques to fine-tune data locality and parallelism. The project emphasized exploiting the inherent parallel nature of matrix multiplication to boost computational throughput, with a keen focus on balancing speed and FPGA resource utilization.
+**User Interface and Interaction**:  
+- Developed an intuitive three-level GUI using piTFT touch control.
+- Provided users with options to select the tracking method and display real-time system information.
 
-**Project Management and Leadership**:  
-My role extended beyond technicalities, involving effective team coordination, milestone tracking, and result-oriented leadership through key phases like design conceptualization, performance benchmarking, and technical report preparation.
+**Hardware Integration and Optimization**:  
+- Successfully integrated PCF8591 ADC-DAC modules and TCA9548A I2C multiplexer for photoresistor-based tracking.
+- Optimized servo motor control using PWM signals for smooth and precise panel movement.
+- Overcame challenges related to I2C bus communication and component compatibility.
+
+**Project Management and Collaboration**:  
+As the project lead, I effectively coordinated tasks, managed timelines, and fostered a collaborative environment within the team. Regular meetings were conducted to discuss progress, address challenges, and ensure alignment with project goals. I actively contributed to hardware assembly, software development, and system integration.
 
 **Skill Enhancement**:  
-This project significantly enhanced my skill set, deepening my understanding of High-Level Synthesis for FPGA, expertise in FPGA design paradigms, parallel computing architectures, and high-throughput hardware optimization techniques.
+This project significantly expanded my skill set, strengthening my expertise in computer vision, embedded systems, and hardware-software integration. I gained proficiency in OpenCV, Raspberry Pi programming, servo motor control, and I2C communication protocols. Additionally, the project honed my problem-solving abilities and reinforced the importance of effective project management and teamwork.
+
+**Work Distribution**:  
+<br/><img src='/images/portfolio-3.png'>  
+Winchester Zhang (sz442): Circuit design, Software development (Photoresistor Mode), System testing
+
+Yuning Xia (yx546): Software Development (Light Mode), Robot Motion System Development, Web Development
+
+Suhan Shi (ss3389): Software Development (Photoresistor Mode), PyGame Interface Design, System Testing
+
+
 
 
 
