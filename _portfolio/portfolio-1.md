@@ -7,7 +7,7 @@ collection: portfolio
  
 **Keywords**: Radar Sensor Integration, LIN Protocol, Automotive Safety, Cross-functional Collaboration
 
-I'm thrilled to share with you a groundbreaking project I led at VIA Tech, where we pushed the boundaries of automotive safety through the integration of a cost-effective radar sensor into our advanced driver recorder system. Our goal was to enhance visibility in hard-to-see areas, such as car trunks, without relying on expensive Controller Area Network (CAN) systems.
+I'm thrilled to share with you a groundbreaking project I led at VIA Tech, where we pushed the boundaries of automotive safety through the integration of a cost-effective radar sensor into our advanced driver recorder system. Our goal was to enhance visibility in hard-to-see areas, such as car trunks, without relying on expensive Controller Area Network (CAN) systems.  
 <a href="/files/ViaTechPresentation.pdf" target="_blank">Click here to view my work</a>
 
 ## Leveraging the LIN Protocol
