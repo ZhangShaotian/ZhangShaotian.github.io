@@ -17,10 +17,10 @@ My journey includes significant experience in scientific computing. I served as 
 I am also interested in CPU architecture, including everything from front-end Register-Transfer Level (RTL) design to back-end physical design. My curiosity extends to understanding the intricate details of data flow within chips and how various metrics, such as energy, time, and area, are influenced. Currently, I am focusing on the physical implementation of the TSMC 28nm Low-Power Quad-Core A7, particularly its top hierarchical flow.
 
 ## Research Interests
-- CPU architecture
-- FPGA Acceleration
+- CPU Architecture
+- Embedded Operating System
 - Scientific Computing Methods
-- Chip Physical Design
+
 
 ## Education
 <table style="width: 100%; border-collapse: collapse; font-family: inherit;" border="0">
