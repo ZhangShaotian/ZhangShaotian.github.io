@@ -8,4 +8,5 @@ tags:
   - category2
 ---
 
-This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`. 
+
+<!-- 这是一个注释 This post will show up by default. To disable scheduling of future posts, edit `config.yml` and set `future: false`.  -->
