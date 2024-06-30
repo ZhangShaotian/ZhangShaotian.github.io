@@ -8,18 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Winchester(Shaotian) Zhang. I chose my preferred name "Winchester" inspired by two brave brothers in "[Supernatural](https://www.netflix.com/title/70143825){:target="_blank"}," a long-running American TV series. "Saving people, hunting things, the family business."
+Hello! I'm Winchester (Shaotian) Zhang. I chose my preferred name "Winchester" inspired by two brave brothers in "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_(American_TV_series)){:target="_blank"}," a long-running American TV series. "Saving people, hunting things, the family business."
 
-As an aspiring researcher in Electrical and Computer Engineering (ECE), I am deeply engaged in the dynamic field of EECS, with a strong educational foundation and practical experience in CPU Architecture and Hardware Acceleration.
+I am currently an intern at the Beijing Institute of Open Source Chip, contributing to the RISC-V project while deepening my knowledge in computer architecture.
 
-My journey includes significant experience in scientific computing. I served as a Computational Research Assistant in the Department of Earth and Atmospheric Sciences at Cornell University, under the supervision of [Prof. David Lee Hysell](https://www.eas.cornell.edu/faculty-directory/david-lee-hysell){:target="_blank"}. My focus was on exploring the feasibility of automatically solving ray tracing problems in Earth's ionosphere model, essentially enabling numerous mathematical problems to run automatically and more efficiently. Specifically, I concentrated on applying Automatic Differentiation to Partial Differential Equations(PDEs).
+My journey in science began with a dream of becoming an astronomer. Although my undergraduate studies led me to Electrical Engineering due to my Gaokao ranking, I continued to pursue my passion for astronomy. During an exchange program in Europe, I took courses in physics, and at Cornell University, I delved into optical and radio astronomy.
 
-I am also interested in CPU architecture, including everything from front-end Register-Transfer Level (RTL) design to back-end physical design. My curiosity extends to understanding the intricate details of data flow within chips and how various metrics, such as energy, time, and area, are influenced. Currently, I am focusing on the physical implementation of the TSMC 28nm Low-Power Quad-Core A7, particularly its top hierarchical flow.
+In addition to my coursework, I gained significant experience in scientific computing as a Computational Research Assistant in the Department of Earth and Atmospheric Sciences at Cornell University. Under the guidance of [Prof. David Lee Hysell](https://www.eas.cornell.edu/faculty-directory/david-lee-hysell){:target="_blank"}, I explored the feasibility of automating ray tracing problems in Earth's ionosphere model using JAX for Automatic Differentiation to Partial Differential Equations (PDEs). While this approach increased efficiency, I found that handling large-scale computations required more robust hardware solutions.
+
+This realization led me to focus on computer architecture. I designed a RISC-V processor with cache during my studies, which sparked my interest in this field. Now, as part of my internship, I am excited to contribute to open-source projects and explore innovative solutions in computing. My work involves developing and optimizing hardware that can significantly enhance scientific computing capabilities, aligning with my broader goal of advancing computational methods in various scientific domains.
+
+Looking ahead, I am considering pursuing a Ph.D. in Computer Architecture to further specialize in this area. I aim to contribute to advancements in hardware design that can support large-scale scientific computations, bridging my interests in both astronomy and computer engineering.
+
+I am always happy to connect with like-minded individuals. If you share an interest in computer architecture or have a passion for astronomy, feel free to reach out!
 
 ## Research Interests
-- CPU Architecture
-- Embedded Operating System
-- Scientific Computing Methods
+- Computer Architecture
+- Scientific Computing
+- Astronomy
 
 
 ## Education
