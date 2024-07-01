@@ -25,6 +25,9 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% if author.employer %}
+      <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+      {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
@@ -117,9 +120,6 @@
 {% endif %}
       {% if author.wechat %}
       <li><a href="{{ author.wechat }}"><i class="fab fa-weixin"></i> WeChat</a></li>
-      {% endif %}
-      {% if author.employer %}
-      <li><a href="{{ author.employer }}"><i class="fa-solid fa-building-columns"></i> Cornell University</a></li>
       {% endif %}
     </ul>
   </div>
