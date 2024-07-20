@@ -10,3 +10,13 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Ignore Bundler config and cache
+.bundle/
+
+# # Ignore Windows Zone.Identifier files
+ *.Zone.Identifier
+
+ # Ignore vendor directory containing third-party dependencies
+ vendor/
+

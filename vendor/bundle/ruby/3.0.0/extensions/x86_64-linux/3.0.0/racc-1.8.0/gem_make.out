@@ -1,0 +1,15 @@
+current directory: /home/winchi/academicpages_github_io/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240720-4458-azvvgi.rb extconf.rb
+creating Makefile
+
+current directory: /home/winchi/academicpages_github_io/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/winchi/academicpages_github_io/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/winchi/academicpages_github_io/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240720-4458-da40r0/racc
