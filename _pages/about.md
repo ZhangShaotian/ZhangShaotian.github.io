@@ -1,49 +1,59 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hello! I'm Winchester (Shaotian) Zhang. I chose my preferred name "Winchester" inspired by two brave brothers in "[Supernatural](https://en.wikipedia.org/wiki/Supernatural_(American_TV_series)){:target="_blank"}," a long-running American TV series. "Saving people, hunting things, the family business."
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am currently an intern at the Beijing Institute of Open Source Chip, contributing to the RISC-V project while deepening my knowledge in computer architecture.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My journey in science began with a dream of becoming an astronomer. Although my undergraduate studies led me to Electrical Engineering due to my Gaokao ranking, I continued to pursue my passion for astronomy. During an exchange program in Europe, I took courses in physics, and at Cornell University, I delved into optical and radio astronomy.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+In addition to my coursework, I gained significant experience in scientific computing as a Computational Research Assistant in the Department of Earth and Atmospheric Sciences at Cornell University. Under the guidance of [Prof. David Lee Hysell](https://www.eas.cornell.edu/faculty-directory/david-lee-hysell){:target="_blank"}, I explored the feasibility of automating ray tracing problems in Earth's ionosphere model using JAX for Automatic Differentiation to Partial Differential Equations (PDEs). While this approach increased efficiency, I found that handling large-scale computations required more robust hardware solutions.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+This realization led me to focus on computer architecture. I designed a RISC-V processor with cache during my studies, which sparked my interest in this field. Now, as part of my internship, I am excited to contribute to open-source projects and explore innovative solutions in computing. My work involves developing and optimizing hardware that can significantly enhance scientific computing capabilities, aligning with my broader goal of advancing computational methods in various scientific domains.
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Looking ahead, I am considering pursuing a Ph.D. in Computer Architecture to further specialize in this area. I aim to contribute to advancements in hardware design that can support large-scale scientific computations, bridging my interests in both astronomy and computer engineering.
 
-**Markdown generator**
+I am always happy to connect with like-minded individuals. If you share an interest in computer architecture or have a passion for astronomy, feel free to reach out!
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Research Interests
+- Computer Architecture
+- Scientific Computing
+- Astronomy
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+## Education
+<!-- <table style="width: 100%; border-collapse: collapse; font-family: inherit;" border="0">
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">M.Eng in Electrical & Computer Engineering, Cornell University</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2022.08 - 2023.12</td>
+</tr>
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">Exchange Student in EE&Physics, Linköping University</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2021.01 - 2022.01</td>
+</tr>
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">B.Eng in Electrical Engineering, South China University of Technology</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2018.08 - 2022.06</td>
+</tr>
+</table> -->
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<table style="width: 100%; border-collapse: collapse; font-family: inherit; font-size: 17px;" border="0">
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">M.Eng in Electrical & Computer Engineering, Cornell University</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2022.08 - 2023.12</td>
+</tr>
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">Exchange Student in EE & Physics, Linköping University</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2021.01 - 2022.01</td>
+</tr>
+<tr>
+  <td style="text-align: left; border: none; font-family: inherit;">B.Eng in Electrical Engineering, South China University of Technology</td>
+  <td style="text-align: right; border: none; font-family: inherit;">2018.08 - 2022.06</td>
+</tr>
+</table>

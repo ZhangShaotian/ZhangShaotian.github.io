@@ -15,8 +15,9 @@ package-lock.json
 .bundle/
 
 # # Ignore Windows Zone.Identifier files
- *.Zone.Identifier
+ *Zone.Identifier
 
  # Ignore vendor directory containing third-party dependencies
- vendor/
+/vendor/
+
 
