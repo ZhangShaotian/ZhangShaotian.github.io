@@ -30,7 +30,7 @@ I am always happy to connect with like-minded individuals. If you share an inter
 ## Education
 <!-- <table style="width: 100%; border-collapse: collapse; font-family: inherit;" border="0">
 <tr>
-  <td style="text-align: left; border: none; font-family: inherit;">M.Eng in Electrical & Computer Engineering, Cornell University</td>
+  <td style="text-align: left; border: none; font-family: inherit;">M.Eng. in Electrical & Computer Engineering, Cornell University</td>
   <td style="text-align: right; border: none; font-family: inherit;">2022.08 - 2023.12</td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ I am always happy to connect with like-minded individuals. If you share an inter
   <td style="text-align: right; border: none; font-family: inherit;">2021.01 - 2022.01</td>
 </tr>
 <tr>
-  <td style="text-align: left; border: none; font-family: inherit;">B.Eng in Electrical Engineering, South China University of Technology</td>
+  <td style="text-align: left; border: none; font-family: inherit;">B.Eng. in Electrical Engineering, South China University of Technology</td>
   <td style="text-align: right; border: none; font-family: inherit;">2018.08 - 2022.06</td>
 </tr>
 </table> -->
